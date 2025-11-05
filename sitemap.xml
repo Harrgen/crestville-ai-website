@@ -40,4 +40,14 @@
     <lastmod>2025-03-10</lastmod>
     <priority>0.6</priority>
   </url>
+   <url>
+    <loc>https://crestvilleai.com/privacy.html</loc>
+    <lastmod>2025-03-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://crestvilleai.com/404.html</loc>
+    <lastmod>2025-03-10</lastmod>
+    <priority>0.1</priority>
+  </url>
 </urlset>
