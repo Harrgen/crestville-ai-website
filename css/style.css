@@ -641,6 +641,10 @@ header {
     align-items: start;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Left Side - Value Propositions */
 .contact-info h3 {
     margin-bottom: 40px;

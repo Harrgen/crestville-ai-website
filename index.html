@@ -252,7 +252,7 @@
                                 <i class="fas fa-envelope"></i>
                                 Email Us
                             </a>
-                            <a href="tel:+254712345678" class="quick-link">
+                            <a href="tel:+254768639071" class="quick-link">
                                 <i class="fas fa-phone"></i>
                                 Call Us
                             </a>
@@ -271,73 +271,69 @@
                         <p>Get a personalized automation strategy in 30 minutes</p>
                     </div>
                     
-                    <form id="consultationForm">
-                        <div class="form-grid">
-                            <div class="form-group">
-                                <label for="fullName">Full Name *</label>
-                                <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="workEmail">Work Email *</label>
-                                <input type="email" id="workEmail" name="workEmail" required placeholder="your.email@company.com">
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="companyName">Company Name *</label>
-                            <input type="text" id="companyName" name="companyName" required placeholder="Your company name">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="companySize">Company Size</label>
-                            <select id="companySize" name="companySize">
-                                <option value="">Select company size</option>
-                                <option value="1-10">1-10 employees</option>
-                                <option value="11-50">11-50 employees</option>
-                                <option value="51-200">51-200 employees</option>
-                                <option value="201-500">201-500 employees</option>
-                                <option value="501+">501+ employees</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="challenge">Primary Business Challenge</label>
-                            <select id="challenge" name="challenge">
-                                <option value="">What would you like to automate?</option>
-                                <option value="customer-service">Customer Service & Support</option>
-                                <option value="data-processing">Data Processing & Entry</option>
-                                <option value="workflow-management">Workflow Management</option>
-                                <option value="reporting-analytics">Reporting & Analytics</option>
-                                <option value="integration">System Integration</option>
-                                <option value="other">Other (describe below)</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="goals">What are your main goals? *</label>
-                            <textarea id="goals" name="goals" rows="3" required placeholder="e.g., Reduce manual data entry by 80%, improve customer response times, automate reporting..."></textarea>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="timeline">Expected Timeline</label>
-                            <select id="timeline" name="timeline">
-                                <option value="">When are you looking to implement?</option>
-                                <option value="immediately">Immediately (within 1 month)</option>
-                                <option value="1-3 months">1-3 months</option>
-                                <option value="3-6 months">3-6 months</option>
-                                <option value="exploring">Just exploring options</option>
-                            </select>
-                        </div>
-
-                        <div class="form-footer">
-                            <button type="submit" class="btn btn-primary btn-large">
-                                <i class="fas fa-calendar-check"></i>
-                                Book Free Consultation
-                            </button>
-                            <p class="form-note">No credit card required • 30-minute session • Get actionable insights</p>
-                        </div>
-                    </form>
+    <form name="consultation" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+         <input type="hidden" name="_replyto" value="hello@crestvilleai.com">
+    <!-- Hidden anti-spam field -->
+    <p class="hidden">
+        <label>Don't fill this out if you're human: <input name="bot-field"></label>
+    </p>
+    
+    <div class="form-group">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
+    </div>
+    
+    <div class="form-group">
+        <label for="workEmail">Work Email *</label>
+        <input type="email" id="workEmail" name="workEmail" required placeholder="your.email@company.com">
+    </div>
+    
+    <div class="form-group">
+        <label for="companyName">Company Name *</label>
+        <input type="text" id="companyName" name="companyName" required placeholder="Your company name">
+    </div>
+    
+    <div class="form-group">
+        <label for="companySize">Company Size *</label>
+        <select id="companySize" name="companySize" required>
+            <option value="">Select company size</option>
+            <option value="1-10">1-10 employees</option>
+            <option value="11-50">11-50 employees</option>
+            <option value="51-200">51-200 employees</option>
+            <option value="201-500">201-500 employees</option>
+            <option value="501+">501+ employees</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="challenge">Biggest Automation Challenge *</label>
+        <textarea id="challenge" name="challenge" rows="3" required placeholder="What's your biggest workflow bottleneck?"></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="goals">Primary Goals *</label>
+        <textarea id="goals" name="goals" rows="3" required placeholder="What would you like to achieve with automation?"></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="timeline">Timeline for Implementation</label>
+        <select id="timeline" name="timeline">
+            <option value="">Select timeline</option>
+            <option value="immediately">Immediately</option>
+            <option value="1-3 months">1-3 months</option>
+            <option value="3-6 months">3-6 months</option>
+            <option value="6+ months">6+ months</option>
+            <option value="just-researching">Just researching</option>
+        </select>
+    </div>
+    
+    <div class="form-footer">
+        <button type="submit" class="btn btn-primary btn-large">
+            <i class="fas fa-calendar-check"></i>
+            Book Free Consultation
+        </button>
+    </div>
+</form>
                 </div>
             </div>
         </div>
