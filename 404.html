@@ -1,103 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found | Crestville AI</title>
-    <meta name="description" content="Sorry, the page you are looking for does not exist. Return to Crestville AI homepage or explore our services.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KC54E2K2MT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page Not Found | Crestville AI</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Head back to Crestville AI's homepage or explore our AI automation services." />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KC54E2K2MT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KC54E2K2MT');
+    </script>
+  </head>
+  <body>
 
-  gtag('config', 'G-KC54E2K2MT');
-</script>
-</head>
-
-<body>
-    <!-- Uniform Navbar -->
     <header>
-        <nav class="navbar container">
-            <div class="logo">
-                Crestville <span>AI</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <button class="mobile-menu" aria-label="Open Menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </nav>
+      <nav class="navbar container">
+        <div class="logo">Crestville <span>AI</span></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="mobile-menu" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+      </nav>
     </header>
 
-    <section class="about-hero" style="min-height: 60vh; display: flex; align-items: center;">
-        <div class="container">
-            <div class="about-hero-content" style="text-align: center;">
-                <h1 style="font-size: 4rem; margin-bottom: 18px;">404</h1>
-                <h2 style="margin-bottom: 18px;">Page Not Found</h2>
-                <p>Sorry, the page you’re looking for doesn’t exist or has been moved.</p>
-                <a href="index.html" class="btn btn-primary" style="margin-top: 28px;">Go to Homepage</a>
+    <section class="error-page">
+      <div class="container">
+        <div class="error-content">
+          <div class="error-code">404</div>
+          <div class="error-icon"><i class="fas fa-robot"></i></div>
+          <h1>Even our AI couldn't find this page</h1>
+          <p>The page you're looking for has moved, been deleted, or never existed. But you're here now — let's make it useful.</p>
+
+          <div class="error-actions">
+            <a href="index.html" class="btn btn-primary">
+              <i class="fas fa-home"></i> Back to Homepage
+            </a>
+            <a href="contact.html" class="btn btn-secondary">
+              <i class="fas fa-calendar-check"></i> Book a Free Session
+            </a>
+          </div>
+
+          <div class="error-links">
+            <p>Or go directly to:</p>
+            <div class="error-link-grid">
+              <a href="index.html#services" class="error-link-card">
+                <i class="fas fa-robot"></i>
+                <span>Our Services</span>
+              </a>
+              <a href="blog.html" class="error-link-card">
+                <i class="fas fa-book-open"></i>
+                <span>Blog & Guides</span>
+              </a>
+              <a href="faq.html" class="error-link-card">
+                <i class="fas fa-question-circle"></i>
+                <span>FAQ</span>
+              </a>
+              <a href="about.html" class="error-link-card">
+                <i class="fas fa-users"></i>
+                <span>About Us</span>
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Footer (same as other pages) -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Crestville AI</h3>
-                    <p>We make your business work smarter, not harder. Intelligent automation solutions for the modern enterprise.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="privacy.html">Privacy Policy & Terms</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html#services">AI-Powered Workflows</a></li>
-                        <li><a href="index.html#services">Custom Automation Systems</a></li>
-                        <li><a href="index.html#services">Process Optimization</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <ul class="footer-links">
-                        <li><a href="mailto:hello@crestvilleai.com"><i class="fas fa-envelope"></i> hello@crestvilleai.com</a></li>
-                        <li><a href="tel:+254768639071"><i class="fas fa-phone"></i> +254 768 639071</a></li>
-                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Crestville AI</h3>
+            <p>We help businesses worldwide automate their operations, cut costs, and scale without limits.</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/crestvilleai" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="copyright">
-                <p>&copy; 2025 Crestville AI. All rights reserved.</p>
-            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="privacy.html">Privacy Policy &amp; Terms</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul class="footer-links">
+              <li><a href="index.html#services">AI Workflow Automation</a></li>
+              <li><a href="index.html#services">Custom AI Systems</a></li>
+              <li><a href="index.html#services">Process Optimisation</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><a href="mailto:hello@crestvilleai.com"><i class="fas fa-envelope"></i> hello@crestvilleai.com</a></li>
+              <li><a href="https://wa.me/254768639071" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></li>
+              <li><a href="tel:+254768639071"><i class="fas fa-phone"></i> +254 768 639 071</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="copyright">
+          <p>&copy; 2025 Crestville AI. All rights reserved.</p>
+          <p class="footer-tagline">Intelligent automation for businesses that want to grow smarter.</p>
+        </div>
+      </div>
     </footer>
-</body>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
